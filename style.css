@@ -1,0 +1,166 @@
+body {
+  margin: auto;
+  padding: 0;
+}
+
+@font-face {
+  font-family: SourceSansPro;
+  src: url("Fonts/SourceSansPro-Regular.ttf");
+}
+
+h4 {
+  font-family: Helvetica;
+  font-size: 15px;
+  color: #FFF;
+  max-width: 245px;
+}
+
+header {
+  overflow: hidden;
+  clear: both;
+  max-width: 940px;
+  margin: auto;
+}
+
+.leftheader {
+  width: 300px;
+  height: 100px;
+  background-color: #DDDDDD;
+  float: left;
+}
+
+.rightheader {
+  width: 620px;
+  height: 100px;
+  background-color: #DDDDDD;
+  float: right;
+}
+
+.rightheader h4 {
+  padding: 20px 80px;
+}
+
+main {
+  max-width: 940px;
+  width: 100%;
+  margin: auto;
+  height: 55vh;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  position: relative;
+  clear: both;
+  overflow: hidden;
+}
+
+.wrapper {
+  position: relative;
+  margin-left: 420px;
+  max-width: 600px;
+  width: 100%;
+  overflow: visible;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  position: relative;
+}
+
+.container1 {
+  max-width: 600px;
+  width: 100%;
+  position: absolute;
+  margin-top: 210px;
+  margin-left: -100px;
+}
+
+.container-item-1 {
+  width: 100%;
+  max-width: 200px;
+  position: absolute;
+  padding: 5px;
+  height: 200px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container-item-1 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container-item {
+  width: 100%;
+  max-width: 200px;
+  position: absolute;
+  padding: 5px;
+  height: 200px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container-item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container-buttons {
+  position: absolute;
+  top: 50.5%;
+  left: 60%;
+}
+
+.container-buttons button {
+  width: 60px;
+  height: 60px;
+  margin: 5px 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container-buttons .button1 {
+  border: 1px solid #DDDDDD;
+}
+
+.container-buttons .button2 {
+  border: 1px solid #134880;
+}
+
+.text {
+  float: right;
+  width: 32%;
+}
+
+.text p {
+  font-family: SourceSansPro;
+  font-size: 18px;
+  line-height: 26px;
+  color: #484A4C;
+  letter-spacing: -0.2px;
+}
+
+.text h2 {
+  font-family: SourceSansPro;
+  font-size: 32px;
+  font-weight: bold;
+  color: #134880;
+  line-height: 37.5px;
+  letter-spacing: -0.2px;
+  margin: 0;
+}
+
+footer {
+  max-width: 940px;
+  height: 100px;
+  background-color: #DDDDDD;
+  margin: auto;
+}
+
+footer h4 {
+  padding: 40px 80px;
+}
+/*# sourceMappingURL=style.css.map */
